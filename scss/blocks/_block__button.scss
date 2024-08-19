@@ -1,0 +1,39 @@
+.block__btns {
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 767px) {
+        margin-top: 40px;
+    }
+}
+
+.block-btn {
+    color: $white;
+    width: 196px;
+    margin-left: 16px;
+    border: none;
+    text-transform: $text-upper;
+    border-radius: 3px;
+    padding: 1px 0;
+    cursor: pointer;
+    transition: opacity 0.3s, padding 0.3s ease-in;
+    
+    &:hover {
+        opacity: .75;
+        padding: 5px 0px;
+    }
+
+    @media screen and (max-width: 767px) {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+.block-tab-btn {
+    background-color: $bg-btn-blue;
+}
+
+.block-tabs-btn {
+    background-color: $bg-btn-grow;
+}

@@ -1,0 +1,44 @@
+.landscapes {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+
+    @media screen and (max-width: 767px) {
+        padding: 60px 0;
+    }
+}
+
+.tab__title {
+    color: $oliver;
+}
+
+.txt__tab {
+    color: #8E8E9C;
+}
+
+img {
+    margin-bottom: 16px;
+}
+
+.landscapes__title {
+    font-size: 31px;
+    color: $oliver;
+    margin-bottom: 18px;
+
+    @media screen and (max-width: 767px) {
+        font-size: 25px;
+    }
+}
+
+.landscapes__txt {
+    font-size: 13px;
+    color: $olive-drab;
+    line-height: 1.69em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 664px;
+
+    @media screen and (max-width: 767px) {
+        max-width: 356px;
+    }
+}

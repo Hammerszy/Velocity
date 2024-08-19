@@ -1,0 +1,39 @@
+@mixin background-size {
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.block__social {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.social {
+    background-image: url(./../img/svg/social/twitter.svg);
+    @include background-size;
+    padding-left: 33px;
+    font-size: 13px;
+    margin-bottom: 17px;
+    border-bottom: 1px solid $footer-border;
+    width: 270px;
+    padding-bottom: 12px;
+    
+}
+
+.social2 {
+    background-image: url(./../img/svg/social/facebook.svg);
+}
+
+.social3 {
+    background-image: url(./../img/svg/social/pinterest.svg);
+}
+
+.social4 {
+    background-image: url(./../img/svg/social/google.svg);
+}
+
+.social5 {
+    background-image: url(./../img/svg/social/webflow.svg);
+}

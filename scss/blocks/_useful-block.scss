@@ -1,0 +1,16 @@
+.useful__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.useful__link {
+    font-size: 13px;
+    border-bottom: 1px solid $footer-border;
+    width: 311px;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+
+    &:hover {
+        opacity: .75;
+    }
+}
